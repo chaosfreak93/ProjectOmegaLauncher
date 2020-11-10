@@ -190,11 +190,5 @@
       <FileType>ManifestEntryPoint</FileType>
     </PublishFile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Updater\Updater.csproj">
-      <Project>{1bb803f0-266b-4cb0-88d3-7786a6868962}</Project>
-      <Name>Updater</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
