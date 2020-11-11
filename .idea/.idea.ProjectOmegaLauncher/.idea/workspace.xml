@@ -24,98 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4d857f-0778-484b-8cf6-efd1a0506407" name="Default Changelist" comment="Updater">
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectOmegaLauncher/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/bin/Release/Updater.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/bin/Release/Updater.exe.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/bin/Release/Updater.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/App.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/InstallGame.baml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/InstallGame.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/MainWindow.baml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/MainWindow.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/UpdateGame.baml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/UpdateGame.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/UpdateLauncher.baml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/UpdateLauncher.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater.Properties.Resources.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater.csproj.GenerateResource.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater.g.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater_MarkupCompile.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/Launcher.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/ProjectOmegaLauncher.application" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/ProjectOmegaLauncher.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/ProjectOmegaLauncher.exe.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/ProjectOmegaLauncher.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/ProjectOmegaLauncher.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/Updater.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/Updater.exe.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/Updater.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/Release/app.publish/ProjectOmegaLauncher.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/App.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/MainWindow.baml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/MainWindow.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.Properties.Resources.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.application" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.csproj.GenerateResource.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.g.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectOmegaLauncher/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectOmegaLauncher/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectOmegaLauncher.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectOmegaLauncher.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectOmegaLauncher.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectOmegaLauncher.csproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectOmegaLauncher.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectOmegaLauncher.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/Updater.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Updater/Updater.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/bin/Debug/Updater.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/bin/Debug/Updater.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/bin/Debug/Updater.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/App.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/App.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/InstallGame.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/InstallGame.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/InstallGame.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/MainWindow.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/MainWindow.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/MainWindow.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/UpdateGame.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/UpdateGame.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/UpdateGame.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/UpdateLauncher.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/UpdateLauncher.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/UpdateLauncher.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater.Properties.Resources.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater.csproj.GenerateResource.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater.g.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Debug/Updater_MarkupCompile.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Release/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Updater/obj/Release/App.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Updater/obj/Release/Updater.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Updater/obj/Release/Updater.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/ProjectOmegaLauncher.application" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/ProjectOmegaLauncher.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/ProjectOmegaLauncher.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/ProjectOmegaLauncher.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/ProjectOmegaLauncher.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Updater.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Updater.exe.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/Updater.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/app.publish/ProjectOmegaLauncher.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectOmegaLauncher/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectOmegaLauncher/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectOmegaLauncher/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectOmegaLauncher/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Updater/obj/Release/Updater.csproj.FileListAbsolute.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/project_omega/Game/LocalVersion.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/project_omega/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/project_omega/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" beforeDir="false" />
@@ -223,26 +134,7 @@
       <change beforePath="$PROJECT_DIR$/bin/Debug/project_omega/Game/Project Omega_Data/sharedassets0.resource" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/project_omega/Game/UnityCrashHandler64.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/project_omega/Game/UnityPlayer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/App.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/App.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/MainWindow.baml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/MainWindow.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/MainWindow.g.i.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.Properties.Resources.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.application" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.csproj.GenerateResource.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.g.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/ProjectOmegaLauncher_MarkupCompile.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/MainWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/ProjectOmegaLauncher.csproj.FileListAbsolute.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,6 +265,7 @@
       <workItem from="1605100873285" duration="9130000" />
       <workItem from="1605117230587" duration="882000" />
       <workItem from="1605124463717" duration="2830000" />
+      <workItem from="1605129141609" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1605080591327</created>
@@ -432,6 +325,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="365" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1920.1040@0.0.1920.1040" timestamp="1605117256231" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605129277202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605129277202" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605127330857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -512,6 +409,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605115429350" />
+    <state x="591" y="281" key="MultipleFileMergeDialog" timestamp="1605129179277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="281" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605129179277" />
     <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1605080684020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -520,10 +421,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605078884721" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605117319213">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605129247877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605117319213" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605129247877" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605129201517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605129201517" />
     <state x="629" y="253" width="661" height="534" key="find.popup" timestamp="1605078854642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

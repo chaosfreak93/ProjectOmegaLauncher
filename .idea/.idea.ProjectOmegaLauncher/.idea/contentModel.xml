@@ -22,6 +22,7 @@
       <e p="ProjectOmegaLauncher.exe.manifest" t="Include" />
       <e p="ProjectOmegaLauncher.sln" t="IncludeFlat" />
       <e p="Properties" t="Include">
+        <e p="app.manifest" t="Include" />
         <e p="AssemblyInfo.cs" t="Include" />
         <e p="Resources.Designer.cs" t="Include" />
         <e p="Resources.resx" t="Include" />
