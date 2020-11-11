@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using Application = System.Windows.Application;
 using MessageBox = System.Windows.Forms.MessageBox;
 
-namespace ProjectRebootLauncher
+namespace ProjectOmegaLauncher
 {
     /// <summary>
     ///     Interaktionslogik für MainWindow.xaml
@@ -27,9 +27,9 @@ namespace ProjectRebootLauncher
 
             VersionLabel.Content = "v" + Assembly.GetExecutingAssembly().GetName().Version;
 
-            if (!Directory.Exists(@".\Project_Omega"))
+            if (!Directory.Exists(@".\project_omega"))
             {
-                Directory.CreateDirectory(@".\Project_Omega");
+                Directory.CreateDirectory(@".\project_omega");
                 installing = true;
                 var install = new Install();
                 install.Show();
@@ -42,7 +42,7 @@ namespace ProjectRebootLauncher
         {
             try
             {
-                Process.Start(@".\Project_Omega\Game\ProjectOmega.exe");
+                Process.Start(@".\project_omega\Game\Project Omega.exe");
                 Application.Current.Shutdown();
             }
             catch
@@ -70,7 +70,7 @@ namespace ProjectRebootLauncher
                     // Param1 = Link of file
                     new Uri("http://5.181.151.36/project_omega/Game/ServerVersion.txt"),
                     // Param2 = Path to save
-                    @".\Project_Omega\ServerVersion.txt"
+                    @".\project_omega\ServerVersion.txt"
                 );
 
                 wc.DownloadFileCompleted += wc_DownloadFileCompleted;
@@ -81,14 +81,14 @@ namespace ProjectRebootLauncher
         {
             try
             {
-                var localTextFile = File.ReadAllText(@".\Project_Omega\Game\LocalVersion.txt");
-                var serverTextFile = File.ReadAllText(@".\Project_Omega\ServerVersion.txt");
+                var localTextFile = File.ReadAllText(@".\project_omega\Game\LocalVersion.txt");
+                var serverTextFile = File.ReadAllText(@".\project_omega\ServerVersion.txt");
 
                 if (localTextFile != serverTextFile)
                     newer = true;
                 else
                     newer = false;
-                File.Delete(@".\Project_Omega\ServerVersion.txt");
+                File.Delete(@".\project_omega\ServerVersion.txt");
 
                 if (newer)
                 {

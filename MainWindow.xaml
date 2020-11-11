@@ -1,9 +1,9 @@
-﻿<Window x:Name="Launcher" x:Class="ProjectRebootLauncher.MainWindow"
+﻿<Window x:Name="Launcher" x:Class="ProjectOmegaLauncher.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ProjectRebootLauncher"
+        xmlns:local="clr-namespace:ProjectOmegaLauncher"
         mc:Ignorable="d"
         Title="Project Reboot Launcher" Height="425" Width="715" Background="#FF2E3841">
     <Grid>
@@ -12,7 +12,7 @@
         <Label x:Name="VersionLabel" Content="v0.1" HorizontalAlignment="Left" Margin="110,24,0,0" FontSize="8"
                Height="21" VerticalAlignment="Top" Foreground="#FF879314" />
         <WebBrowser x:Name="webBrowser" Margin="11,51,10,53"
-                    Source="http://5.181.151.36/project_reboot/project-reboot-updates.html" />
+                    Source="http://5.181.151.36/project_omega/project-omega-updates.html" />
         <Button x:Name="LaunchGameButton" Content="Play Game" Margin="0,0,10,10" Background="#FF3BBD7C"
                 BorderThickness="0,0,0,1" BorderBrush="{x:Null}" Foreground="#FF0E2A3E" HorizontalAlignment="Right"
                 Width="86" Height="23" VerticalAlignment="Bottom" Click="LaunchGameButton_Click" />

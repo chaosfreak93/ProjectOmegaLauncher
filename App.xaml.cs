@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ProjectRebootLauncher
+namespace ProjectOmegaLauncher
 {
     /// <summary>
     ///     Interaktionslogik für "App.xaml"

@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Forms;
 using MessageBox = System.Windows.Forms.MessageBox;
 
-namespace ProjectRebootLauncher
+namespace ProjectOmegaLauncher
 {
     /// <summary>
     ///     Interaktionslogik für Download.xaml
@@ -27,7 +27,7 @@ namespace ProjectRebootLauncher
                     // Param1 = Link of file
                     new Uri("http://5.181.151.36/project_omega/Game/Game.zip"),
                     // Param2 = Path to save
-                    @".\Project_Omega\Game.zip"
+                    @".\project_omega\Game.zip"
                 );
 
                 wc.DownloadFileCompleted += wc_DownloadFileCompleted;
@@ -38,8 +38,8 @@ namespace ProjectRebootLauncher
         {
             try
             {
-                var zipPath = @".\Project_Omega\Game.zip";
-                var extractPath = @".\Project_Omega\Game";
+                var zipPath = @".\project_omega\Game.zip";
+                var extractPath = @".\project_omega";
 
                 Directory.Delete(extractPath, true);
 

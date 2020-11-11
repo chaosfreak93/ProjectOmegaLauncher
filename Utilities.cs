@@ -1,4 +1,4 @@
-﻿namespace ProjectRebootLauncher
+﻿namespace ProjectOmegaLauncher
 {
     internal class Utilities
     {
