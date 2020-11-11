@@ -7,7 +7,7 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ProjectOmegaLauncher.exe.manifest" size="3255">
+    <dependentAssembly dependencyType="install" codebase="ProjectOmegaLauncher.exe.manifest" size="3887">
       <assemblyIdentity name="ProjectOmegaLauncher.exe" version="0.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
     </dependentAssembly>
   </dependency>

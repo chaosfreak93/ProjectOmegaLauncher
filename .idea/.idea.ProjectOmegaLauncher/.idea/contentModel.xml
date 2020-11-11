@@ -8,16 +8,12 @@
       <e p="App.xaml" t="Include" />
       <e p="App.xaml.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Install.xaml" t="Include" />
-      <e p="Install.xaml.cs" t="Include" />
       <e p="MainWindow.xaml" t="Include" />
       <e p="MainWindow.xaml.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
-        <e p="Release" t="Include">
+        <e p="Debug" t="Include">
           <e p="App.g.cs" t="Include" />
-          <e p="Install.g.cs" t="Include" />
           <e p="MainWindow.g.cs" t="Include" />
-          <e p="Update.g.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
@@ -32,9 +28,36 @@
         <e p="Settings.Designer.cs" t="Include" />
         <e p="Settings.settings" t="Include" />
       </e>
-      <e p="Update.xaml" t="Include" />
-      <e p="Update.xaml.cs" t="Include" />
-      <e p="Utilities.cs" t="Include" />
+      <e p="Updater" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="InstallGame.xaml" t="Include" />
+        <e p="InstallGame.xaml.cs" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="InstallGame.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+            <e p="UpdateGame.g.cs" t="Include" />
+            <e p="UpdateLauncher.g.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="UpdateGame.xaml" t="Include" />
+        <e p="UpdateGame.xaml.cs" t="Include" />
+        <e p="UpdateLauncher.xaml" t="Include" />
+        <e p="UpdateLauncher.xaml.cs" t="Include" />
+        <e p="Updater.csproj" t="IncludeRecursive" />
+        <e p="Utilities.cs" t="Include" />
+      </e>
     </e>
   </component>
 </project>

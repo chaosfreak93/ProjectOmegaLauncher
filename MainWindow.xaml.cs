@@ -1,8 +1,5 @@
-﻿using System;
-using System.ComponentModel;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
-using System.Net;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Forms;
@@ -14,11 +11,8 @@ namespace ProjectOmegaLauncher
     /// <summary>
     ///     Interaktionslogik für MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow
     {
-        private readonly bool installing;
-        private bool newer;
-
         public MainWindow()
         {
             InitializeComponent();
@@ -30,12 +24,9 @@ namespace ProjectOmegaLauncher
             if (!Directory.Exists(@".\project_omega"))
             {
                 Directory.CreateDirectory(@".\project_omega");
-                installing = true;
-                var install = new Install();
-                install.Show();
             }
 
-            if (!installing) UpdateCheck();
+            Process.Start(@".\Updater.exe", "launcher");
         }
 
         private void LaunchGameButton_Click(object sender, RoutedEventArgs e)
@@ -59,52 +50,7 @@ namespace ProjectOmegaLauncher
 
         private void UpdateGameButton_Click(object sender, RoutedEventArgs e)
         {
-            UpdateCheck();
-        }
-
-        private void UpdateCheck()
-        {
-            using (var wc = new WebClient())
-            {
-                wc.DownloadFileAsync(
-                    // Param1 = Link of file
-                    new Uri("http://5.181.151.36/project_omega/Game/ServerVersion.txt"),
-                    // Param2 = Path to save
-                    @".\project_omega\ServerVersion.txt"
-                );
-
-                wc.DownloadFileCompleted += wc_DownloadFileCompleted;
-            }
-        }
-
-        private void wc_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
-        {
-            try
-            {
-                var localTextFile = File.ReadAllText(@".\project_omega\Game\LocalVersion.txt");
-                var serverTextFile = File.ReadAllText(@".\project_omega\ServerVersion.txt");
-
-                if (localTextFile != serverTextFile)
-                    newer = true;
-                else
-                    newer = false;
-                File.Delete(@".\project_omega\ServerVersion.txt");
-
-                if (newer)
-                {
-                    var update = new Update();
-                    update.Show();
-                }
-                else
-                {
-                    MessageBox.Show("You already have the latest Game Version!", "Uptodate", MessageBoxButtons.OK,
-                        MessageBoxIcon.Information);
-                }
-            }
-            catch
-            {
-                Console.WriteLine("Some errors on update check!");
-            }
+            Process.Start(@".\Updater.exe", "game");
         }
     }
 }

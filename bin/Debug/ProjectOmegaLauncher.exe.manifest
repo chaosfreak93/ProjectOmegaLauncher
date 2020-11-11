@@ -42,14 +42,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectOmegaLauncher.exe" size="19456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectOmegaLauncher.exe" size="11776">
       <assemblyIdentity name="ProjectOmegaLauncher" version="0.0.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>O0swSMsp5XvqScIHdFLS0gAHEgkTStDiCUn8T9b2vE8=</dsig:DigestValue>
+        <dsig:DigestValue>cCO8uYfHV37sUslmtL7klkMfE9IDLxDUPGsCDOFdcsw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Updater.exe" size="19456">
+      <assemblyIdentity name="Updater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Zm4h7rIxiuWeX6IwdRDgCAGtUfeDJ8PYPcQmMxP3KRA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
