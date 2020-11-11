@@ -5,6 +5,7 @@ using System.IO.Compression;
 using System.Net;
 using System.Windows;
 using System.Windows.Forms;
+using Application = System.Windows.Application;
 using MessageBox = System.Windows.Forms.MessageBox;
 
 namespace Updater
@@ -51,10 +52,11 @@ namespace Updater
             }
             catch
             {
-                MessageBox.Show(
+                var mg = MessageBox.Show(
                     "Installation errors occurred.\nPlease move to \"" + Directory.GetCurrentDirectory() +
                     "\" and remove the \"Project_Omega\" Folder.\nThen try again!!!", "Installing failed",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (mg == System.Windows.Forms.DialogResult.OK) Application.Current.Shutdown();
             }
         }
 

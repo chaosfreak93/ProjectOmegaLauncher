@@ -4,23 +4,60 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Project Omega Launcher" Height="425" Width="715" Background="#FF2E3841">
+        Title="Project Omega Launcher" Height="600" Width="1024">
     <Grid>
-        <Label x:Name="GameTitleLabel" Content="Project Omega" HorizontalAlignment="Left" Margin="10,10,0,0"
-               VerticalAlignment="Top" Height="28" Width="110" FontWeight="Bold" FontSize="14" Foreground="White" />
-        <Label x:Name="VersionLabel" Content="v0.1" HorizontalAlignment="Left" Margin="110,24,0,0" FontSize="8"
-               Height="21" VerticalAlignment="Top" Foreground="#FF879314" />
-        <WebBrowser x:Name="WebBrowser" Margin="11,51,10,53"
-                    Source="http://5.181.151.36/project_omega/project-omega-updates.html" />
-        <Button x:Name="LaunchGameButton" Content="Play Game" Margin="0,0,10,10" Background="#FF3BBD7C"
-                BorderThickness="0,0,0,1" BorderBrush="{x:Null}" Foreground="#FF0E2A3E" HorizontalAlignment="Right"
-                Width="86" Height="23" VerticalAlignment="Bottom" Click="LaunchGameButton_Click" />
-        <Button x:Name="UpdateGameButton" Content="Check For Updates" Margin="0,0,101,10" Background="#FFBBCADE"
-                BorderThickness="0,0,0,1" BorderBrush="{x:Null}" Foreground="#FF0E2A3E" HorizontalAlignment="Right"
-                Width="107" Height="23" VerticalAlignment="Bottom" Click="UpdateGameButton_Click" />
-        <Button x:Name="LaunchWebsiteButton" Content="Website" HorizontalAlignment="Left" Margin="11,0,0,10" Width="86"
-                Background="#FFBBCADE" BorderThickness="0,0,0,1" BorderBrush="{x:Null}" Foreground="#FF0E2A3E"
-                Height="23" VerticalAlignment="Bottom" Click="LaunchWebsiteButton_Click" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <Grid Grid.Row="1" Grid.Column="1">
+            <WebBrowser x:Name="WebBrowser" Source="http://5.181.151.36/project_omega/project-omega-updates.html" />
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2E3841" Offset="0"/>
+                    <GradientStop Color="#FF232B32" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.Effect>
+                <DropShadowEffect BlurRadius="20" RenderingBias="Quality" Color="#FF232B32" ShadowDepth="1" />
+            </Grid.Effect>
+            <Grid>
+                <Label x:Name="GameTitleLabel" Content="Project Omega" HorizontalAlignment="Center" Margin="10"
+               VerticalAlignment="Center" Height="28" Width="110" FontWeight="Bold" FontSize="14" Foreground="White" />
+                <Label x:Name="VersionLabel" Content="v0.1" HorizontalAlignment="Center" Margin="110,24,0,0" FontSize="8"
+               Height="21" VerticalAlignment="Center" Foreground="#FF879314" />
+            </Grid>
+            <StackPanel Grid.Row="1">
+                <Button x:Name="LaunchGameButton" Foreground="#FF0E2A3E" Background="#FF3BBD7C" Margin="10" Click="LaunchGameButton_Click" BorderBrush="{x:Null}" Height="30">
+                    <Grid Width="150">
+                        <TextBlock HorizontalAlignment="Center" Text="Play Game"></TextBlock>
+                    </Grid>
+                </Button>
+                <Button x:Name="UpdateGameButton" Foreground="#FF0E2A3E" Background="#FFBBCADE" Margin="10" Click="UpdateGameButton_Click" BorderBrush="{x:Null}" Height="20">
+                    <Grid Width="150">
+                        <TextBlock HorizontalAlignment="Center" Text="Check For Updates"></TextBlock>
+                    </Grid>
+                </Button>
+                <Button x:Name="LaunchWebsiteButton" Foreground="#FF0E2A3E" Background="#FFBBCADE" Margin="10" Click="LaunchWebsiteButton_Click" BorderBrush="{x:Null}" Height="20">
+                    <Grid Width="150">
+                        <TextBlock HorizontalAlignment="Center" Text="Website"></TextBlock>
+                    </Grid>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.ColumnSpan="2" Background="#FF2E3841"/>
     </Grid>
 </Window>

@@ -1,5 +1,4 @@
-﻿
-using System.Windows;
+﻿using System.Windows;
 
 namespace Updater
 {
@@ -10,8 +9,14 @@ namespace Updater
     {
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            MainWindow main = new MainWindow(e.Args[0]);
-            main.Show();
+            Current.ShutdownMode = ShutdownMode.OnLastWindowClose;
+
+            if (e.Args[0] == "game")
+                new MainWindow().CheckForGameUpdates();
+            else if (e.Args[0] == "launcher")
+                new MainWindow().CheckForLauncherUpdates();
+            else
+                Current.Shutdown();
         }
     }
 }

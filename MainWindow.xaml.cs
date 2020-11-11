@@ -3,6 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Forms;
+using System.Windows.Navigation;
 using Application = System.Windows.Application;
 using MessageBox = System.Windows.Forms.MessageBox;
 
@@ -21,12 +22,14 @@ namespace ProjectOmegaLauncher
 
             VersionLabel.Content = "v" + Assembly.GetExecutingAssembly().GetName().Version;
 
-            if (!Directory.Exists(@".\project_omega"))
-            {
-                Directory.CreateDirectory(@".\project_omega");
-            }
+            if (!Directory.Exists(@".\project_omega")) Directory.CreateDirectory(@".\project_omega");
 
-            Process.Start(@".\Updater.exe", "launcher");
+            WebBrowser.LoadCompleted += reloadBrowser;
+        }
+
+        void reloadBrowser(object sender, NavigationEventArgs e)
+        {
+            WebBrowser.Refresh();
         }
 
         private void LaunchGameButton_Click(object sender, RoutedEventArgs e)
