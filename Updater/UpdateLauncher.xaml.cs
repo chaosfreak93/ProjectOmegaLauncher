@@ -6,6 +6,7 @@ using System.IO.Compression;
 using System.Net;
 using System.Windows;
 using System.Windows.Forms;
+using Application = System.Windows.Application;
 using MessageBox = System.Windows.Forms.MessageBox;
 
 namespace Updater
@@ -23,6 +24,8 @@ namespace Updater
 
             using (var wc = new WebClient())
             {
+                File.Delete(@".\Launcher.zip");
+
                 wc.DownloadProgressChanged += wc_DownloadProgressChanged;
                 wc.DownloadFileAsync(
                     // Param1 = Link of file
@@ -42,31 +45,28 @@ namespace Updater
                 var zipPath = @".\Launcher.zip";
                 var extractPath = @".\";
 
-                Process[] procs = Process.GetProcessesByName("ProjectOmegaLauncher");
-                
-                foreach (Process proc in procs)
-                {
-                    proc.Kill();
-                }
                 File.Delete(@".\ProjectOmegaLauncher.exe");
 
                 ZipFile.ExtractToDirectory(zipPath, extractPath);
 
                 File.Delete(zipPath);
 
-                Process.Start(@".\ProjectOmegaLauncher.exe");
-                
                 Close();
 
-                MessageBox.Show("Launcher has been updated!", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                var mg = MessageBox.Show("Launcher has been updated!", "Done", MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                if (mg == System.Windows.Forms.DialogResult.OK)
+                {
+                    Process.Start(@".\ProjectOmegaLauncher.exe", "no-update");
+                    Application.Current.Shutdown();
+                }
             }
-            catch (Exception error)
+            catch
             {
-                throw error;
-                MessageBox.Show(
-                    "Installation errors occurred.\nPlease move to \"" + Directory.GetCurrentDirectory() +
-                    "\" and remove the \"Project_Omega\" Folder.\nThen try again!!!", "Installing failed",
+                var mg = MessageBox.Show(
+                    "Installation errors occurred.", "Installing failed",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (mg == System.Windows.Forms.DialogResult.OK) Application.Current.Shutdown();
             }
         }
 

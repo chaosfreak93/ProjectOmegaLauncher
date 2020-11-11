@@ -21,12 +21,7 @@ namespace ProjectOmegaLauncher
 
             VersionLabel.Content = "v" + Assembly.GetExecutingAssembly().GetName().Version;
 
-            if (!Directory.Exists(@".\project_omega"))
-            {
-                Directory.CreateDirectory(@".\project_omega");
-            }
-
-            Process.Start(@".\Updater.exe", "launcher");
+            if (!Directory.Exists(@".\project_omega")) Directory.CreateDirectory(@".\project_omega");
         }
 
         private void LaunchGameButton_Click(object sender, RoutedEventArgs e)

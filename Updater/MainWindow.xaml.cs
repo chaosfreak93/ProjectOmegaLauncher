@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
-using MessageBox = System.Windows.Forms.MessageBox;
+using Application = System.Windows.Application;
 
 namespace Updater
 {
@@ -15,18 +15,6 @@ namespace Updater
     {
         private bool _newer;
 
-        public MainWindow(string toUpdate)
-        {
-            if (toUpdate == "game")
-            {
-                CheckForGameUpdates();
-            }
-            else
-            {
-                CheckForLauncherUpdates();
-            }
-        }
-        
         public void CheckForLauncherUpdates()
         {
             using (var wc = new WebClient())
@@ -41,7 +29,7 @@ namespace Updater
                 wc.DownloadFileCompleted += wc_DownloadFileCompleted;
             }
         }
-        
+
         public void CheckForGameUpdates()
         {
             using (var wc = new WebClient())
@@ -60,7 +48,6 @@ namespace Updater
         private void wc_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
         {
             if (e.UserState.ToString() == "game")
-            {
                 try
                 {
                     if (!Directory.Exists(@".\project_omega\Game"))
@@ -70,7 +57,7 @@ namespace Updater
                         installGame.Show();
                         return;
                     }
-                    
+
                     var localGameVersion = File.ReadAllText(@".\project_omega\Game\LocalVersion.txt");
                     var serverGameVersion = File.ReadAllText(@".\project_omega\ServerVersion.txt");
 
@@ -95,8 +82,7 @@ namespace Updater
                 {
                     Console.WriteLine("Some errors on update check!");
                 }
-            } else if (e.UserState.ToString() == "launcher")
-            {
+            else if (e.UserState.ToString() == "launcher")
                 try
                 {
                     var localGameVersion = FileVersionInfo.GetVersionInfo(@".\ProjectOmegaLauncher.exe").ProductVersion;
@@ -115,15 +101,14 @@ namespace Updater
                     }
                     else
                     {
-                        MessageBox.Show("You already have the latest Launcher Version!", "Uptodate", MessageBoxButtons.OK,
-                            MessageBoxIcon.Information);
+                        Process.Start(@".\ProjectOmegaLauncher.exe", "no-update");
+                        Application.Current.Shutdown();
                     }
                 }
                 catch
                 {
                     Console.WriteLine("Some errors on update check!");
                 }
-            }
         }
     }
 }

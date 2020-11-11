@@ -11,7 +11,7 @@
       <e p="MainWindow.xaml" t="Include" />
       <e p="MainWindow.xaml.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
+        <e p="Release" t="Include">
           <e p="App.g.cs" t="Include" />
           <e p="MainWindow.g.cs" t="Include" />
         </e>
@@ -38,7 +38,7 @@
         <e p="MainWindow.xaml" t="Include" />
         <e p="MainWindow.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="App.g.cs" t="Include" />
             <e p="InstallGame.g.cs" t="Include" />
             <e p="MainWindow.g.cs" t="Include" />
